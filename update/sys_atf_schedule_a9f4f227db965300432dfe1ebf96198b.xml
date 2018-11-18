@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'NeedIt App' on a system with this configuration:
+Firefox browser on any version
+Windows operating system on any version</description>
+        <name>NeedIt App Suites</name>
+        <run_as display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-01 04:55:39</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('a9f4f227db965300432dfe1ebf96198b');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-01 04:56:07</sys_created_on>
+        <sys_id>a9f4f227db965300432dfe1ebf96198b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt App Suites</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_schedule_a9f4f227db965300432dfe1ebf96198b</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2018-06-01 05:03:45</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+</record_update>

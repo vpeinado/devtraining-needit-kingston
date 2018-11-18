@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_template">
+    <sys_atf_test_template action="INSERT_OR_UPDATE">
+        <description>Impersonate a user, create a record, verify all mandatory fields have values, set field values, submit form</description>
+        <name>Record creationg - NeedIt</name>
+        <sys_class_name>sys_atf_test_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-31 19:49:28</sys_created_on>
+        <sys_id>c8e7b42bdb525300432dfe1ebf9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record creationg - NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_test_template_c8e7b42bdb525300432dfe1ebf9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-31 19:50:52</sys_updated_on>
+        <template>071ee5b253331200040729cac2dc348d,05317cd10b10220050192f15d6673af8,fcae4a935332120028bc29cac2dc340e,1dfece935332120028bc29cac2dc3478,be8e0a935332120028bc29cac2dc34e4</template>
+    </sys_atf_test_template>
+</record_update>
